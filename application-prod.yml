@@ -6,4 +6,4 @@ server:
   port: 9000
 spring:
   config:
-    location: database-dev.yml
+    location: database-prod.yml
