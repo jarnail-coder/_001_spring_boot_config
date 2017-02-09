@@ -1,5 +1,4 @@
 spring:
-  profiles: prod
   config:
     location: database-dev.yml
 configuration:  
