@@ -1,6 +1,6 @@
 spring:
   config:
-    location: database-prod.yml
+    name: application,database
 configuration:  
   projectName: configclient
 server:
