@@ -1,7 +1,8 @@
+spring:
+  profiles: prod
+  config:
+    location: database-dev.yml
 configuration:  
   projectName: configclient
 server:
   port: 8000
-spring:
-  config:
-    location: database-dev.yml

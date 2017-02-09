@@ -1,9 +1,10 @@
 spring:
   profiles: prod
+  config:
+    location: database-prod.yml
 configuration:  
   projectName: configclient
 server:
   port: 9000
-spring:
-  config:
-    location: database-prod.yml
+
+  
