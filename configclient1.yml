@@ -1,5 +1,5 @@
 configuration:  
-  projectName: configclient1 Property Updated
+  projectName: configclient1 Property Updated again..test
 server:
   port: 8000
 message:
