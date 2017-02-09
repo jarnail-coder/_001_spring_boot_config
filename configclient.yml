@@ -1,6 +1,24 @@
 configuration:  
-  projectName: configclient1
+  projectName: configclient
 server:
   port: 8080
 message:
-  greeting: Hello from the configuration!
+  greeting: Hello from the default configuration!
+---
+spring:
+  profiles: dev
+configuration:  
+  projectName: configclient
+server:
+  port: 8000
+message:
+  greeting: Hello from the dev environment!
+---
+spring:
+  profiles: prod
+configuration:  
+  projectName: configclient
+server:
+  port: 9000
+message:
+  greeting: Hello from the prod environment!
