@@ -4,6 +4,9 @@ server:
   port: 8080
 message:
   greeting: Hello from the default configuration!
+management:
+  security:
+    enabled: false
 ---
 spring:
   profiles: prod
