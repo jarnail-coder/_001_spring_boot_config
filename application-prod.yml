@@ -6,15 +6,6 @@ message:
   greeting: Hello from the default configuration!
 ---
 spring:
-  profiles: dev
-configuration:  
-  projectName: configclient
-server:
-  port: 8000
-message:
-  greeting: Hello from the dev environment!
----
-spring:
   profiles: prod
 configuration:  
   projectName: configclient
