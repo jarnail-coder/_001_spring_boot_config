@@ -1,6 +1,6 @@
 spring:
   config:
-    name: application,database
+    name: database
 configuration:  
   projectName: configclient
 server:
